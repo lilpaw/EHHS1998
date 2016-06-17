@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+alumni = Alumni.new(name: "Brandi Ford", mobile: "614-286-3525", email_address: "brandimford@gmail.com", mailing_address: "37977 Parkmont Drive, Fremont, CA 94536", attending: true, number_guests: 2)
+
+alumni.save
